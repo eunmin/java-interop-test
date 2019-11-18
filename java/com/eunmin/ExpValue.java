@@ -1,5 +1,5 @@
 package com.eunmin;
 
-interface ExpValue {
-  String getName();
+public abstract class ExpValue {
+  public abstract String getName();
 }

@@ -1,6 +1,6 @@
 package com.eunmin;
 
-public class BoolValue implements ExpValue {
+public class BoolValue extends ExpValue {
   private Boolean value;
 
   public BoolValue(boolean value) {
