@@ -1,6 +1,6 @@
 package com.eunmin;
 
-public class IntValue extends ExpValue {
+public class IntValue implements ExpValue {
   private Integer value;
 
   public IntValue(int value) {
